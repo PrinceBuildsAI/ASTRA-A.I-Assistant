@@ -1,0 +1,17 @@
+
+engine/auth/samples/
+engine/auth/trainer.yml
+envastra
+astra.db
+/engine/__pycache__
+/engine/cookies.json
+
+
+*.json
+__pycache__/
+*.pyc
+
+
+
+
+
