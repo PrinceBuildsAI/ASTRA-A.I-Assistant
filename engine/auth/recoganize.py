@@ -56,16 +56,18 @@ def AuthenticateFace():
 
             # to predict on every single image
             id, accuracy = recognizer.predict(converted_image[y:y+h, x:x+w])
+            print(f"Predicted ID: {id}, Accuracy: {accuracy}")
 
             # Check if accuracy is less them 100 ==> "0" is perfect match
-            if (accuracy < 100):
-                id = names[id]
-                accuracy = "  {0}%".format(round(100 - accuracy))
-                flag = 1
+            if accuracy < 100:
+                if 0 <= id < len(names):
+                    id = names[id]
+                    flag = 1
             else:
-                id = "unknown"
-                accuracy = "  {0}%".format(round(100 - accuracy))
+                id = "Unknown"
                 flag = 0
+
+            accuracy = "  {0}%".format(round(100 - accuracy))
 
             cv2.putText(img, str(id), (x+5, y-5), font, 1, (255, 255, 255), 2)
             cv2.putText(img, str(accuracy), (x+5, y+h-5),
