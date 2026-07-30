@@ -79,17 +79,11 @@ def takeCommand():
             print("Listening....")
             eel.DisplayMessage("Listening....")
 
-            audio = r.listen(
-                source,
-                timeout=5,
-                phrase_time_limit=8
-            )
-
             r.pause_threshold = 0.4
             r.non_speaking_duration = 0.2
             r.dynamic_energy_threshold = False
             r.energy_threshold = 300
-            # r.adjust_for_ambient_noise(source, duration=0.2)
+            r.adjust_for_ambient_noise(source, duration=1)
 
             audio = r.listen(source, timeout=5, phrase_time_limit=8)
 
