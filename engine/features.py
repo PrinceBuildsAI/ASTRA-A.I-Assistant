@@ -27,7 +27,7 @@ from openai import OpenAI
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",
+    api_key="Enter your key",
 )
 
 from engine.helper import extract_yt_term, remove_words
