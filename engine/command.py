@@ -61,6 +61,7 @@ def cleanCommand(query):
 # Speech to Text
 
 model = None
+recognizer = sr.Recognizer()
 
 
 def takeCommand():
@@ -71,7 +72,7 @@ def takeCommand():
         print("Loading voice model...")
         model = WhisperModel("base", device="cpu", compute_type="int8")
 
-    r = sr.Recognizer()
+    r = recognizer
 
     try:
         with sr.Microphone() as source:
@@ -79,7 +80,7 @@ def takeCommand():
             eel.DisplayMessage("Listening....")
 
             r.pause_threshold = 0.7
-            r.adjust_for_ambient_noise(source, duration=1)
+            r.adjust_for_ambient_noise(source, duration=0.2)
 
             audio = r.listen(source, timeout=5, phrase_time_limit=6)
 

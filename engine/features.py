@@ -138,7 +138,7 @@ def hotword():
 
                 autogui.keyDown("win")
                 autogui.press("j")
-                time.sleep(2)
+                time.sleep(0.1)
                 autogui.keyUp("win")
 
     except:
