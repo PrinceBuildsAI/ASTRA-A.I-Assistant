@@ -284,7 +284,7 @@ def chatBot(query):
 
         response = completion.choices[0].message.content.strip()
 
-        print("BUMBLEBEE:", response)
+        print("ASTRA:", response)
         speak(response)
         return response
 
