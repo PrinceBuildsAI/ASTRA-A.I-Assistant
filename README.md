@@ -1,11 +1,54 @@
-# 🚀 ASTRA A.I. Voice Assistant – Features & Specifications
+# 🚀 ASTRA A.I. Voice Assistant
+
+## 📸 Project Overview
+
+<table align="center">
+  <tr>
+    <td style="border: 2px solid #00aaff; border-radius: 12px; padding: 6px;">
+      <img src="assets/astra-preview-1.png" alt="ASTRA A.I. Voice Assistant - Main Interface" width="500">
+    </td>
+    <td style="border: 2px solid #00aaff; border-radius: 12px; padding: 6px;">
+      <img src="assets/astra-preview-2.png" alt="ASTRA A.I. Voice Assistant - Voice Interface" width="500">
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <img src="assets/astra-preview-1.png" alt="ASTRA A.I. Voice Assistant - Main Interface" width="49%">
-  <img src="assets/astra-preview-2.png" alt="ASTRA A.I. Voice Assistant - Voice Interface" width="49%">
+  <strong>🎙️ An intelligent desktop voice assistant designed to interact with users through natural voice commands.</strong>
 </p>
 
 ---
+
+## ⚡ Project Highlights
+
+<p align="center">
+
+| 🚀 Specification           |            📊 Details |
+| -------------------------- | --------------------: |
+| 🎙️ Voice-Enabled Commands |               **20+** |
+| 🧪 Commands Tested         |               **50+** |
+| 🖥️ Desktop Assistant      | **1 Complete System** |
+| 🔊 Voice Interaction       |         **Real-Time** |
+| 🤖 AI-Powered Automation   |    **Multiple Tasks** |
+| 🌐 Web Integration         |               **Yes** |
+| 💾 Local Data Storage      |            **SQLite** |
+
+</p>
+
+### 🎯 Key Capabilities
+
+* 🎙️ **20+ voice-enabled commands** for interacting with the assistant.
+* 🧪 **Tested across 50+ voice commands** to validate voice interaction and command handling.
+* 🖥️ Real-time desktop voice interaction.
+* 🔊 Speech-to-Text and Text-to-Speech capabilities.
+* 🌐 Web and application automation.
+* 📱 WhatsApp messaging integration.
+* ▶️ YouTube interaction through voice commands.
+* 💾 SQLite-based local data management.
+* 🎨 Interactive desktop interface.
+
+> 🚀 **ASTRA combines voice recognition, AI-driven command processing, automation, and a modern interface into one complete desktop assistant.**
+
 
 ## **🤖 Artificial Intelligence**
 
@@ -168,3 +211,14 @@
 * 🌍 Multi-language support
 * ☁️ Cloud synchronization
 * 🧠 Long-term conversation memory
+
+## 👨‍💻 Author
+
+**PrinceBuildsAI**
+
+Built as a practical **AI-powered voice assistant project** to explore how voice recognition, natural language interaction, and desktop automation can be combined to create an intelligent personal assistant.
+
+---
+
+⭐ **If you found this project interesting, consider giving the repository a star!**
+
