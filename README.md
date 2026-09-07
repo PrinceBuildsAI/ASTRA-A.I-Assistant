@@ -1,4 +1,11 @@
-# **🚀 ASTRA A.I. Voice Assistant – Features & Specifications**
+# 🚀 ASTRA A.I. Voice Assistant – Features & Specifications
+
+<p align="center">
+  <img src="assets/astra-preview-1.png" alt="ASTRA A.I. Voice Assistant - Main Interface" width="49%">
+  <img src="assets/astra-preview-2.png" alt="ASTRA A.I. Voice Assistant - Voice Interface" width="49%">
+</p>
+
+---
 
 ## **🤖 Artificial Intelligence**
 
